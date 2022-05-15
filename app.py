@@ -36,6 +36,11 @@ def homepage():
       <head></head>
       <body>
         <p>Here are the coefficients for a linear regression model:
+            To understand what the coefficients are doing, they read like this:
+
+                "For one unit of (CRIM), the value of the house (MEDV) 'increases' by ≈ -77"
+                "For one unit of (CHAS), the value of the house (MEDV) increases by ≈ 4133"
+
            {df_str}
         </p>
       </body>
